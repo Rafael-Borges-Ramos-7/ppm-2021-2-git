@@ -11,9 +11,14 @@
     <h1>Ola Mundo!</h1>
     <p>
         Digite aqui o seu nome: <br>
-        <input type="text">
+        <input type="text" onchange="helloWorld()" >
     </p>
 
+<script>
+    function helloWorld() {
+        window.alert('Hello World');
+    }
+</script>
 
 </body>
 </html>
